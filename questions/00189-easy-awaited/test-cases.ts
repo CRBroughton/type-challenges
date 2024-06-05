@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { MyAwaited } from './template'
 
 type X = Promise<string>
 type Y = Promise<{ field: number }>
