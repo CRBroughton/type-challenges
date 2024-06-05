@@ -1,1 +1,1 @@
-type Concat<T, U> = any
+export type Concat<T extends readonly unknown[], U extends readonly unknown[]> = [...T, ...U]

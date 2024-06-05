@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { Concat } from './template'
 
 const tuple = [1] as const
 
