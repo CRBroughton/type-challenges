@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import type { If } from './template'
 
 type cases = [
   Expect<Equal<If<true, 'a', 'b'>, 'a'>>,
